@@ -13,7 +13,9 @@ sesuaikan versi chrome driver anda, untuk mengecek versi chrome anda dapat memas
 selanjutnya extrack file driver yang anda download dan masukan kedalam folder driver
 
 silahkan ganti baris pada file otomate.py:
+
 jika anda menggunakan linux : basepath = os.path.join("driver", "chromedriver")
+
 jika anda menggunakan windows : basepath = os.path.join("driver", "chromedriver.exe")
 
 untuk menjalankan program, anda dapat melalui app.py atau dengan perintah terminal: python app.py
